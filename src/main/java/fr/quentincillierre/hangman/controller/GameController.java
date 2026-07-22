@@ -14,6 +14,8 @@ import java.util.Map;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.util.Duration;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.transform.Scale;
 
 public class GameController {
 
@@ -28,6 +30,9 @@ public class GameController {
 
     @FXML
     private Label resultLabel;
+
+    @FXML
+    private AnchorPane gamePane;
 
     @FXML
     private Label roundLabel;
@@ -59,7 +64,7 @@ public class GameController {
     private int losses = 0;
 
     // Timer
-    private final int START_TIME = 90;
+    private final int START_TIME = 60;
     private int timeLeft = START_TIME;
     private Timeline timeline;
     private boolean roundFinished = false;
@@ -80,6 +85,8 @@ public class GameController {
     styleRestartButton();
 
     updateScoreBoard();
+
+    makeGameResizable();
 
     startTimer();
 
@@ -330,7 +337,6 @@ private void styleRestartButton() {
 
     updateScoreBoard();
 
-    timerLabel.setStyle("-fx-text-fill: white; -fx-font-size:20px; -fx-font-weight:bold;");
 
     timeline = new Timeline(
 
@@ -342,7 +348,7 @@ private void styleRestartButton() {
 
             if (timeLeft <= 10) {
 
-                timerLabel.setStyle("-fx-text-fill:red; -fx-font-size:20px; -fx-font-weight:bold;");
+                timerLabel.setStyle("-fx-text-fill:red; -fx-font-size:15px; -fx-font-weight:bold;");
             }
 
             if (timeLeft <= 0) {
@@ -369,6 +375,60 @@ private void styleRestartButton() {
     timeline.setCycleCount(Timeline.INDEFINITE);
 
     timeline.play();
+}
+private void endTournament() {
+
+    if (timeline != null) {
+        timeline.stop();
+    }
+
+    wordLabel.setText("");
+
+    String champion;
+
+    if (wins > losses) {
+        champion = "🏆 YOU WON THE TOURNAMENT!";
+    } else if (losses > wins) {
+        champion = "💀 YOU LOST THE TOURNAMENT!";
+    } else {
+        champion = "🤝 TOURNAMENT ENDED IN A DRAW!";
+    }
+
+    resultLabel.setText(
+            champion +
+            "\n\nWins: " + wins +
+            "\nLosses: " + losses
+    );
+
+    resultLabel.setStyle(
+            "-fx-text-fill: green;" +
+            "-fx-font-size:20px;" +
+            "-fx-font-weight:bold;" +
+            "-fx-alignment:center;"
+    );
+
+    restartButton.setText("New Tournament");
+    restartButton.setVisible(true);
+
+    disableAllButtons();
+}
+
+private void makeGameResizable() {
+
+    Scale scale = new Scale();
+    gamePane.getTransforms().add(scale);
+
+    gamePane.sceneProperty().addListener((obs, oldScene, newScene) -> {
+
+        if (newScene != null) {
+
+            scale.xProperty().bind(
+                    newScene.widthProperty().divide(1024));
+
+            scale.yProperty().bind(
+                    newScene.heightProperty().divide(1024));
+        }
+    });
 }
 
     private void startNewGame() {
@@ -400,13 +460,32 @@ updateScoreBoard();
     @FXML
 private void handleRestart() {
 
+    // If the tournament has finished, start a new tournament
+    if (restartButton.getText().equals("New Tournament")) {
+
+        currentRound = 1;
+        wins = 0;
+        losses = 0;
+
+        restartButton.setText("Next...");
+        restartButton.setVisible(false);
+
+        startNewGame();
+        updateScoreBoard();
+
+        return;
+    }
+
+    // Continue to the next round
     if (currentRound < TOTAL_ROUNDS) {
+
         currentRound++;
         startNewGame();
+
     } else {
-        resultLabel.setText("Tournament Finished!");
-        restartButton.setDisable(true);
+
+        endTournament();
+
     }
 }
-    
 }

@@ -15,7 +15,7 @@ public class MainApp extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("game-view.fxml"));
         Parent root = loader.load();
 
-        Scene scene = new Scene(root, 800, 800);
+        Scene scene = new Scene(root, 1024, 1024);
 
         GameController controller = loader.getController();
 
@@ -24,7 +24,7 @@ public class MainApp extends Application {
         });
 
         primaryStage.setScene(scene);
-        primaryStage.setResizable(false);
+        primaryStage.setResizable(true);
         primaryStage.show();
     }
 
