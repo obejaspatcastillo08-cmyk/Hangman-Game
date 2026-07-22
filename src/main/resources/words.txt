@@ -1,0 +1,197 @@
+Piano:I have keys but no locks. I have pedals but no bike.
+Towel:I get wetter the more I dry.
+Clock:I have hands but cannot clap.
+Book:I have pages but I'm not a tree.
+Bottle:I have a neck but no head.
+Needle:I have an eye but cannot see.
+Stamp:I travel around the world while staying in one corner.
+Egg:Break me before you use me.
+Sponge:I'm full of holes, but I can still hold water.
+Hole:The more you take away from me, the bigger I become.
+Shadow:I follow you during the day but disappear at night.
+River:I can run but never walk.
+Echo:I speak without a mouth and hear without ears.
+Fire:Feed me and I grow. Give me water and I disappear.
+Rain:I fall from the sky but never get hurt.
+Sun:I shine by day and hide by night.
+Moon:I light up the night but never burn.
+Bank:I have branches but no leaves.
+Compass:I always point the right way, but I never move.
+Mirror:I show you exactly what you look like.
+Helmet:I protect your head but never think.
+Camera:I capture moments without remembering them.
+Key:I unlock doors but never enter.
+Bus:I carry people but never walk.
+Car:I have four wheels but no feet.
+Airplane:I have wings but no feathers.
+Thunder:I roar but have no mouth.
+Diamond:I sparkle but I'm not a star.
+Flower:I bloom without saying a word.
+Flame:I dance without feet.
+Wind:I whisper through the trees.
+Ice:I freeze without shivering.
+Snow:I melt when the weather gets warm.
+Cloud:I carry rain across the sky.
+Bee:I buzz but never sing.
+Spider:I build beautiful webs without tools.
+Rabbit:I hop but never skip.
+Dog:I bark but I'm not a tree.
+Cat:I purr but don't have an engine.
+Elephant:I have a trunk but I'm not luggage.
+Bat:I sleep upside down.
+Turtle:I wear my home wherever I go.
+Chameleon:I change colors without using paint.
+Lion:I'm called the king of the jungle.
+Zebra:I have stripes but I'm not a road.
+Giraffe:I stretch my neck to reach the tallest leaves.
+Beaver:I build dams instead of houses.
+Squirrel:I collect nuts before winter comes.
+Wolf:I howl when the moon is bright.
+Bear:I sleep through the coldest season.
+Octopus:I have eight arms but no sleeves.
+Squid:I can squirt ink when I'm frightened.
+Snail:I carry my shell on my back.
+Camel:I have a hump that stores energy.
+Butterfly:I changed from a caterpillar into something beautiful.
+Firefly:I glow in the dark without a flashlight.
+Frog:I have a long tongue to catch insects.
+Snake:I slither without legs.
+Pen:I write stories but never read them.
+Eraser:I erase mistakes without speaking.
+Sharpener:I make pencils ready for writing.
+Watch:I measure time but never stop it.
+Bell:I ring without using my voice.
+Refrigerator:I keep food cold all day.
+Oven:I make cookies warm and crispy.
+Vacuum:I swallow dirt from the floor.
+Washing Machine:I wash clothes without using my hands.
+Cooler:I keep drinks cold on a hot day.
+Telephone:I help people talk from far away.
+Television:I show moving pictures in your home.
+Computer:I know many answers but never ask questions.
+Smartphone:I fit in your pocket and can call your friends.
+Microphone:I make your voice louder.
+Lamp:I brighten a dark room.
+Diary:I hold secrets behind a cover.
+Bookshelf:I keep books standing tall.
+Wallet:I carry your money everywhere.
+Safe:I protect your money with numbers.
+Rainbow:I appear after rain with many colors.
+Sound:You can hear me, but you can't see me.
+Future:I'm always ahead but never arrive.
+Dew:I sparkle on grass before the sun rises.
+Star:I twinkle high above your head.
+Lighthouse:I guide ships away from danger.
+Dam:I hold back a river.
+Bridge:I let you cross water without swimming.
+Potato:I grow underground but end up on your plate.
+Onion:I can make you cry without hurting you.
+Pineapple:I wear a crown but I'm not royalty.
+Banana:Peel me before you eat me.
+Popcorn:Heat me and I'll pop.
+Cake:I'm the sweetest part of a birthday.
+Alarm:I wake you up without saying good morning.
+Notebook:I keep your thoughts together one page at a time.
+Puzzle:The more you solve me, the happier you become.
+Comic:I tell stories with pictures and words.
+Hangman:I challenge your mind one letter at a time.
+Coin:I have a face and a body, but no arms or legs.
+Comb:I have teeth but cannot bite.
+Coin:I have a head and a tail but no body.
+Candle:I get smaller every time I work.
+Book:I can be opened but I am not a door.
+Rainbow:I have many colors but no paintbrush.
+Shoe:I have a tongue but cannot taste.
+Shoe:I have a sole but no feet of my own.
+Table:I have four legs but cannot run.
+Chair:I have a back but no front.
+River:I have a bed but never sleep.
+Map:I have cities but no houses, forests but no trees.
+Light:I can fill a room but take up no space.
+Feather:I am easy to lift but hard to throw.
+Silence:I disappear when you say my name.
+Rhinoceros:I have one horn but cannot play music.
+Piano:I have black and white keys but no doors.
+Ruler:I can be long or short, but I always measure something.
+Telephone:I have a ring but no finger.
+Bottle:I have a cap but no head.
+Cave:I have a mouth but never eat.
+Corn:I have ears but cannot hear.
+Tree:I have roots but never walk.
+Tree:I grow taller as I get older.
+Plant:I have leaves but no pages.
+Artichoke:I have a heart that doesn't beat.
+Turtle:I have a shell but no engine.
+Tooth:I have a crown but no kingdom.
+Needle:I am sharp but I am not a knife.
+Guitar:I have strings but cannot tie anything.
+Violin:I make music when my strings are touched.
+Phone:I have a screen but no eyes.
+Mouse:I can be clicked but I am not a button.
+Keyboard:I have a space bar but no room.
+Computer:I store information but I am not a brain.
+Electricity:I travel through wires but I am not a bird.
+Battery:I can be charged but I am not angry.
+Compass:I have a needle but I don't sew.
+Mirror:I show your reflection but keep no memories.
+Car:I have a door but no room inside.
+Bicycle:I have wheels and pedals but no engine.
+Kite:I fly high but I am not alive.
+Kite:I have a tail but I am not an animal.
+River:I have a mouth, a bed, and I run.
+Blackboard:I am black when clean and white when dirty.
+Promise:I can be broken without being touched.
+Zipper:I have many teeth but cannot eat food.
+Umbrella:I protect you from rain but I am not a roof.
+Glove:I have fingers but no bones.
+Hair:I have a lock but no key.
+Hair:I have a crown but I am not a king. I grow on your head.
+Sofa:I have four legs but I am not an animal. I help you sit.
+Treasure Chest:I can be opened with a key but I am not a lock.
+Calculator:I have a face and numbers but I am not a person.
+Letter:I can fly through the air and carry messages.
+Candy:I am colorful, sweet, and often found at parties.
+Crab:I have a shell and people eat me.
+Scissors:I am used to cut paper but I cannot eat.
+Console:I have a screen and buttons, and I help you play games.
+Brush:I have a handle and bristles, and I clean things.
+Sunglasses:I protect your eyes from bright sunlight.
+Socks:I am worn on your feet and come in pairs.
+Blanket:I can keep you warm but I am not a fire.
+Magazine:I have pages and tell stories, but I am smaller than a book.
+Balloon:I can fly in the sky and has a string attached.
+Zoo:I am a place where animals are kept for people to see.
+Brush:I am used by artists to create pictures.
+Phone:I have a camera, but I am not a photographer.
+Telescope:I help you see far away objects.
+Chalk:I am used to write on a blackboard.
+Butterfly:I have wings and colorful patterns but I am not a bird.
+Fish:I live in water and have fins.
+Lion:I have a mane and roar loudly.
+Train:I am a vehicle that travels on tracks.
+Fingerprint:I am used to unlock a phone or door with your touch.
+Ladder:I help you climb high places.
+Balloon:I am round, colorful, and can bounce.
+Hat:I am worn on the head and used for fashion.
+Galaxy:I have many stars and planets inside me.
+Airport:I am the place where planes arrive and leave.
+Mailbox:I carry letters from one place to another.
+Toothbrush:I am used to brush your teeth.
+Calendar:I have pages and show the days of the year.
+Ice Cream:I am a sweet frozen dessert.
+Elephant:I have a long nose and love peanuts in stories.
+X-ray:I help doctors see inside your body.
+Pool:I am a place where you swim for fun.
+Organ:I have keys and pedals and create music.
+Backpack:I am used to carry books to school.
+Mitten:I protect your hands from cold weather.
+Lantern:I am a bright object used to decorate celebrations.
+Bee:I am a small flying insect that makes honey.
+Camera:I am used to take photos underwater.
+Ship:I help you travel across oceans.
+Cinema:I am a place where people watch movies.
+Arrow:I am used to tell direction on a map.
+Coconut:I am a fruit with a hard shell and white inside.
+Kitten:I am a small animal that says "meow."
+Basket:I am used to carry groceries.
+Classroom:I am a place where students learn.
