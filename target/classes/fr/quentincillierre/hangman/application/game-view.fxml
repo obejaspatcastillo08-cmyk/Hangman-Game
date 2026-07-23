@@ -14,68 +14,70 @@
 
 <!-- If you have buttons or gridpanes, they go here -->
 
-
 <StackPane xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.quentincillierre.hangman.controller.GameController">
    <children>
-      <AnchorPane fx:id="gamePane" style="-fx-background-image: url('/H:\hangman-student\src\main\resources\pictures/Bg');">
+      <AnchorPane fx:id="gamePane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-image: url('/H:\hangman-student\src\main\resources\pictures/Bg');">
          <children>
-            <ImageView pickOnBounds="true" preserveRatio="true" style="-fx-background-image: url('/H:\hangman-student\src\main\resources\pictures/Bg.png');;">
+            <ImageView fitHeight="768.0" fitWidth="1024.0" pickOnBounds="true" style="-fx-background-image: url('/H:\hangman-student\src\main\resources\pictures/Bg.png');;">
                <image>
                   <Image url="@../../../../pictures/Bg.png" />
                </image>
             </ImageView>
             <!-- 1. Hangman Image Area (Centered near top) -->
-            <ImageView fx:id="hangmanImageView" fitHeight="417.0" fitWidth="251.0" layoutX="21.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="298.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="hangmanImageView" fitHeight="409.0" fitWidth="296.0" layoutX="39.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="393.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="89.0" fitWidth="480.0" layoutX="208.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="91.0" fitWidth="373.0" layoutX="311.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/Hangman%20Game.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="295.0" fitWidth="573.0" layoutX="247.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="295.0" fitWidth="573.0" layoutX="360.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="285.0" fitWidth="590.0" layoutX="229.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="303.0" fitWidth="609.0" layoutX="325.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/clue.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="671.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="772.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
             
                   <!-- 2. Clue Label -->
-            <Label fx:id="clueLabel" alignment="CENTER" layoutX="286.0" layoutY="276.0" prefHeight="40.0" prefWidth="457.0" text=" Clue of the word!" textAlignment="CENTER" textFill="#4A5568" wrapText="true">
+            <Label fx:id="clueLabel" alignment="CENTER" layoutX="385.0" layoutY="256.0" prefHeight="40.0" prefWidth="484.0" text=" Clue of the word!" textAlignment="CENTER" textFill="#4A5568" wrapText="true">
                <font>
                   <Font name="System Italic" size="18.0" />
                </font>
             </Label>
             
             <!-- 3. Hidden Word Slots (_ _ _ _) -->
-            <Label fx:id="wordLabel" alignment="CENTER" layoutX="239.0" layoutY="354.0" prefHeight="40.0" prefWidth="554.0" text="_ _ _ _ _" textAlignment="CENTER" textFill="#2D3748">
+            <Label fx:id="wordLabel" alignment="CENTER" layoutX="365.0" layoutY="344.0" prefHeight="40.0" prefWidth="554.0" text="_ _ _ _ _" textAlignment="CENTER" textFill="#2D3748">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font>
             </Label>
             
             <!-- 4. Win/Lose Result Status -->
-            <Label fx:id="resultLabel" alignment="CENTER" layoutX="306.0" layoutY="430.0" prefHeight="32.0" prefWidth="417.0" textAlignment="CENTER">
+            <Label fx:id="resultLabel" alignment="CENTER" layoutX="435.0" layoutY="406.0" prefHeight="32.0" prefWidth="417.0" textAlignment="CENTER">
                <font>
                   <Font name="System Bold Italic" size="22.0" />
                </font>
             </Label>
-            <Button fx:id="restartButton" layoutX="384.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleRestart" prefHeight="3.0" prefWidth="273.0" text="Next Round" visible="false" />
+            <Button fx:id="restartButton" layoutX="554.0" layoutY="481.0" mnemonicParsing="false" onAction="#handleRestart" prefHeight="10.0" prefWidth="176.0" text="Next Round" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
             
             <!-- 5. Keyboard Grid (Near bottom) -->
-            <GridPane fx:id="keyboardGrid" alignment="BASELINE_CENTER" hgap="10.0" layoutX="286.0" layoutY="559.0" prefHeight="200.0" prefWidth="457.0" vgap="10.0">
+            <GridPane fx:id="keyboardGrid" alignment="BASELINE_CENTER" hgap="10.0" layoutX="413.0" layoutY="527.0" prefHeight="200.0" prefWidth="457.0" vgap="10.0">
                <effect>
                   <Glow />
                </effect>
@@ -86,32 +88,32 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </GridPane>
-            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="551.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="646.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="429.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="516.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
-            <Label fx:id="roundLabel" layoutX="309.0" layoutY="154.0" prefHeight="25.0" prefWidth="91.0" text="Round: 1/10" textFill="#944b1a">
+            <Label fx:id="roundLabel" layoutX="404.0" layoutY="124.0" prefHeight="25.0" prefWidth="91.0" text="Round: 1/10" textFill="#944b1a">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="winsLabel" layoutX="448.0" layoutY="157.0" text=" Wins: 0" textFill="#944b1a">
+            <Label fx:id="winsLabel" layoutX="535.0" layoutY="126.0" text=" Wins: 0" textFill="#944b1a">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <Label fx:id="lossesLabel" layoutX="567.0" layoutY="156.0" text="Losses: 0" textFill="#944b1a">
+            <Label fx:id="lossesLabel" layoutX="662.0" layoutY="125.0" text="Losses: 0" textFill="#944b1a">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
             </Label>
-            <Label fx:id="timerLabel" layoutX="686.0" layoutY="156.0" text="Time: 90" textFill="#944b1a">
+            <Label fx:id="timerLabel" layoutX="787.0" layoutY="126.0" text="Time: 90" textFill="#944b1a">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>

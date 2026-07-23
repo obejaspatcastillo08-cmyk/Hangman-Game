@@ -228,12 +228,12 @@ private void generateKeyboard() {
 private void styleRestartButton() {
 
     String normalStyle =
-            "-fx-background-color: #e6aa6f;" +
+            "-fx-background-color: linear-gradient(#D8B078,#8B5A2B);" +
             "-fx-background-radius:15;" +
             "-fx-border-color:#5C3A1E;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:18px;" +
+            "-fx-font-size:10px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
@@ -244,7 +244,7 @@ private void styleRestartButton() {
             "-fx-border-color:#6B421F;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:18px;" +
+            "-fx-font-size:10px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
@@ -342,6 +342,8 @@ private void styleRestartButton() {
 
         new KeyFrame(Duration.seconds(1), e -> {
 
+            timerLabel.setStyle("-fx-text-fill:(#944b1a); -fx-font-size:15px; -fx-font-weight:bold;");
+
             timeLeft--;
 
             timerLabel.setText("Time: " + timeLeft);
@@ -426,7 +428,7 @@ private void makeGameResizable() {
                     newScene.widthProperty().divide(1024));
 
             scale.yProperty().bind(
-                    newScene.heightProperty().divide(1024));
+                    newScene.heightProperty().divide(768));
         }
     });
 }
