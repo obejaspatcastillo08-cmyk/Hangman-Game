@@ -23,8 +23,13 @@
                   <Image url="@../../../../pictures/Bg.png" />
                </image>
             </ImageView>
+            <ImageView fitHeight="316.0" fitWidth="393.0" layoutX="38.0" layoutY="452.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../pictures/dart.PNG" />
+               </image>
+            </ImageView>
             <!-- 1. Hangman Image Area (Centered near top) -->
-            <ImageView fx:id="hangmanImageView" fitHeight="409.0" fitWidth="296.0" layoutX="39.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="hangmanImageView" fitHeight="409.0" fitWidth="296.0" layoutX="38.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="393.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/board.png" />
