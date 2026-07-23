@@ -71,10 +71,7 @@
                   <Font name="System Bold Italic" size="22.0" />
                </font>
             </Label>
-            <Button fx:id="restartButton" layoutX="554.0" layoutY="481.0" mnemonicParsing="false" onAction="#handleRestart" prefHeight="10.0" prefWidth="176.0" text="Next Round" visible="false">
-               <font>
-                  <Font size="10.0" />
-               </font></Button>
+            <Button fx:id="restartButton" layoutX="540.0" layoutY="485.0" mnemonicParsing="false" onAction="#handleRestart" prefHeight="21.0" prefWidth="203.0" text="Next Round" textFill="#cd6c1c" visible="false" />
             
             <!-- 5. Keyboard Grid (Near bottom) -->
             <GridPane fx:id="keyboardGrid" alignment="BASELINE_CENTER" hgap="10.0" layoutX="413.0" layoutY="527.0" prefHeight="200.0" prefWidth="457.0" vgap="10.0">

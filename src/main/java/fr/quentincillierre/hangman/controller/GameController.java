@@ -126,7 +126,7 @@ private void refreshUI() {
         wins++;
         updateScoreBoard();
 
-        resultLabel.setText("YOU WIN! 😃🎉");
+        resultLabel.setText("Correct! 😃🎉");
         resultLabel.setStyle("-fx-text-fill: green;");
         
         restartButton.setVisible(true);
@@ -144,7 +144,7 @@ private void refreshUI() {
         losses++;
         updateScoreBoard();
 
-        resultLabel.setText("GAME OVER! 😢 ");
+        resultLabel.setText("Wrong Guess! 😢 ");
         resultLabel.setStyle("-fx-text-fill: red;");
 
         restartButton.setVisible(true);
@@ -233,7 +233,7 @@ private void styleRestartButton() {
             "-fx-border-color:#5C3A1E;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:10px;" +
+            "-fx-font-size:12px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
@@ -244,7 +244,7 @@ private void styleRestartButton() {
             "-fx-border-color:#6B421F;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:10px;" +
+            "-fx-font-size:12px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
