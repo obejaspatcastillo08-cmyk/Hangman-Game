@@ -35,7 +35,7 @@
                   <Image url="@../../../../pictures/board.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="91.0" fitWidth="373.0" layoutX="211.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="91.0" fitWidth="373.0" layoutX="226.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../pictures/Hangman%20Game.png" />
                </image>
@@ -71,7 +71,7 @@
             </Label>
             
             <!-- 4. Win/Lose Result Status -->
-            <Label fx:id="resultLabel" alignment="CENTER" layoutX="319.0" layoutY="341.0" prefHeight="32.0" prefWidth="405.0" textAlignment="CENTER">
+            <Label fx:id="resultLabel" alignment="CENTER" layoutX="335.0" layoutY="341.0" prefHeight="32.0" prefWidth="391.0" textAlignment="CENTER">
                <font>
                   <Font name="System Bold Italic" size="16.0" />
                </font>
