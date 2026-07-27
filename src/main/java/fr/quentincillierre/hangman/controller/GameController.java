@@ -162,7 +162,8 @@ private void generateKeyboard() {
 
     keyboardButtons.clear();
 
-    int[] lettersInRow = {7, 7, 7, 5};
+    // 3 rows: 9, 9, 8 letters
+    int[] lettersInRow = {9, 9, 8};
 
     char currentLetter = 'A';
 
@@ -170,7 +171,8 @@ private void generateKeyboard() {
 
         int numberOfLetters = lettersInRow[row];
 
-        int startColumn = (7 - numberOfLetters) / 2;
+        // Center the last row
+        int startColumn = (9 - numberOfLetters) / 2;
 
         for (int col = 0; col < numberOfLetters; col++) {
 
@@ -186,7 +188,7 @@ private void generateKeyboard() {
                     "-fx-border-color:#5C3A1E;" +
                     "-fx-border-width:3;" +
                     "-fx-border-radius:12;" +
-                    "-fx-font-size:18px;" +
+                    "-fx-font-size:10px;" +
                     "-fx-font-weight:bold;" +
                     "-fx-text-fill:#3B220D;";
 
@@ -196,7 +198,7 @@ private void generateKeyboard() {
                     "-fx-border-color:#6B421F;" +
                     "-fx-border-width:3;" +
                     "-fx-border-radius:12;" +
-                    "-fx-font-size:18px;" +
+                    "-fx-font-size:10px;" +
                     "-fx-font-weight:bold;" +
                     "-fx-text-fill:#3B220D;";
 
@@ -233,7 +235,7 @@ private void styleRestartButton() {
             "-fx-border-color:#5C3A1E;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:12px;" +
+            "-fx-font-size:8px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
@@ -244,7 +246,7 @@ private void styleRestartButton() {
             "-fx-border-color:#6B421F;" +
             "-fx-border-width:3;" +
             "-fx-border-radius:15;" +
-            "-fx-font-size:12px;" +
+            "-fx-font-size:8px;" +
             "-fx-font-weight:bold;" +
             "-fx-text-fill:#3B220D;" +
             "-fx-cursor:hand;";
@@ -425,10 +427,10 @@ private void makeGameResizable() {
         if (newScene != null) {
 
             scale.xProperty().bind(
-                    newScene.widthProperty().divide(1024));
+                    newScene.widthProperty().divide(800));
 
             scale.yProperty().bind(
-                    newScene.heightProperty().divide(768));
+                    newScene.heightProperty().divide(550));
         }
     });
 }
