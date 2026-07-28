@@ -277,8 +277,6 @@ private void styleRestartButton() {
         return; 
     }
 
-
-
         if (character == null || character.isEmpty() || model.isWin() || model.isLose()) {
             return;
         }

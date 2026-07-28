@@ -6,7 +6,7 @@ import java.util.Set;
 public class HangmanModel {
 
     private final String wordToGuess;
-    private final int maxWrongs = 10; // Classic hangman is usually 8 attempts
+    private final int maxWrongs = 10; 
     private int currentWrongs;
     private final Set<Character> guessedLetters;
 
