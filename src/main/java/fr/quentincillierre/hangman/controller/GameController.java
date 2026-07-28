@@ -434,7 +434,7 @@ private void makeGameResizable() {
     this.model = new HangmanModel(newWord); 
     roundFinished = false;
 
-    clueLabel.setText("Clue: " + wordRepository.getClueForWord(newWord));
+    clueLabel.setText(" " + wordRepository.getClueForWord(newWord));
     
     resultLabel.setText(""); 
 
