@@ -1,4 +1,5 @@
 module fr.quentincillierre.hangman {
+    requires transitive javafx.graphics;
     requires javafx.controls;
     requires javafx.fxml;
 

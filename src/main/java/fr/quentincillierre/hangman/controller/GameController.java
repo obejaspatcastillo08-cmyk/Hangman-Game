@@ -57,13 +57,11 @@ public class GameController {
     
     private final Map<Character, Button> keyboardButtons = new HashMap<>();
 
-    // Tournament
     private final int TOTAL_ROUNDS = 10;
     private int currentRound = 1;
     private int wins = 0;
     private int losses = 0;
 
-    // Timer
     private final int START_TIME = 60;
     private int timeLeft = START_TIME;
     private Timeline timeline;
@@ -162,7 +160,6 @@ private void generateKeyboard() {
 
     keyboardButtons.clear();
 
-    // 3 rows: 9, 9, 8 letters
     int[] lettersInRow = {9, 9, 8};
 
     char currentLetter = 'A';
@@ -171,7 +168,6 @@ private void generateKeyboard() {
 
         int numberOfLetters = lettersInRow[row];
 
-        // Center the last row
         int startColumn = (9 - numberOfLetters) / 2;
 
         for (int col = 0; col < numberOfLetters; col++) {
